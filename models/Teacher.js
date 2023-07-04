@@ -8,4 +8,4 @@ const teacherSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Teacher', teacherSchema);
+module.exports = mongoose.model('teacher', teacherSchema);
